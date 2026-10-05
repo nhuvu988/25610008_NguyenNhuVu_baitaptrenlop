@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Danh thiếp Vũ</string>
+    <string name="full_name">Nguyễn Như Vũ</string>
+    <string name="title">Sinh viên lập trình di động · 25610008</string>
+    <string name="phone">Chưa cập nhật số điện thoại</string>
+    <string name="social">github.com/nhuvu988</string>
+    <string name="email">nhuvu988@gmail.com</string>
+</resources>

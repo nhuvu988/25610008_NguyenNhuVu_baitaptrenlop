@@ -1,0 +1,13 @@
+Validation date: 2026-10-05
+
+Command: .\gradlew.bat assembleDebug --offline --console=plain
+Result: BUILD SUCCESSFUL in 4m 1s; 180 actionable tasks executed.
+Debug APKs assembled: birthday, article, taskmanager, quadrant, businesscard.
+
+Static resource checks: PASS for all five modules.
+- Kotlin R.string references exist in module strings.xml.
+- Resource XML files parse successfully.
+- PNG assets pass Pillow image verification.
+
+Limitations: No emulator/device UI execution or instrumentation tests performed.
+Use the manual visual checklist in README.md before classroom presentation.
