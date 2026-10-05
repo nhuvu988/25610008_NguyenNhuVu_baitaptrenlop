@@ -1,8 +1,15 @@
-# Bài tập ở lớp — Buổi 4
+# Bài tập trên lớp — Nguyễn Như Vũ
 
 - Sinh viên: Nguyễn Như Vũ
 - Mã số sinh viên: 25610008
 - Ngôn ngữ: Kotlin
+
+## Các buổi học
+
+- **Buổi 4:** bài Kotlin bể cá và data class/enum, nằm trong `console/`; cách chạy ở bên dưới.
+- **Buổi 6:** hai ứng dụng Jetpack Compose trong [`buoi6/`](buoi6/README.md). Mở riêng thư mục `buoi6` trong Android Studio để chạy `affirmations` hoặc `courses`.
+
+## Buổi 4
 
 ## Nội dung
 

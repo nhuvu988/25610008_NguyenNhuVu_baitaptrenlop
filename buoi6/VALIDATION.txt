@@ -1,0 +1,17 @@
+Buoi 6 - validation on 2026-10-05
+
+PASS: :affirmations:assembleDebug
+PASS: :courses:assembleDebug
+PASS: :affirmations:assembleDebugAndroidTest
+PASS: :courses:assembleDebugAndroidTest
+Gradle result: BUILD SUCCESSFUL; 134 tasks executed.
+
+PASS: resource XML parses; raster images decode; dataset resources exist.
+PASS: Affirmations has 10 distinct items; Courses has 14 distinct topics.
+
+NOT RUN: connectedDebugAndroidTest (no device listed by adb devices).
+NOT VERIFIED ON DEVICE: scrolling, screen rotation, large fonts, dark mode,
+launcher icon masking and edge-to-edge appearance. See README checklist.
+
+Non-blocking build warnings: Kotlin annotation default target migration;
+native graphics library packaged without stripping debug symbols.
