@@ -1,0 +1,2 @@
+- `cupcake`: https://github.com/google-developer-training/basic-android-kotlin-compose-training-cupcake / main, commit `82b7dc7723a7b2b86e3b5d04bc5e8cab9a6e133b`. Mã và tài nguyên Apache 2.0; giữ copyright nguồn, điều chỉnh Gradle và bổ sung theo bài.
+- `lunchtray`: https://github.com/google-developer-training/basic-android-kotlin-compose-training-lunch-tray / main, commit `84e35f4b237d653c9864b2ac8809d6c2d0a4e70b`. Mã và tài nguyên Apache 2.0; giữ copyright nguồn, điều chỉnh Gradle và bổ sung theo bài.

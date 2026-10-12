@@ -1,0 +1,1 @@
+- `dessertclicker`: https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker / main, commit `cb92488417e4da1b997a99b5f0496c94a3b9906c`. Mã và tài nguyên Apache 2.0; giữ copyright nguồn, điều chỉnh Gradle và bổ sung theo bài.

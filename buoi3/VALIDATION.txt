@@ -1,0 +1,8 @@
+Validation date: 2026-10-12
+Environment: Windows, Java 25, Gradle 9.6.0
+
+example.functions.FunctionsTest: 4 tests, 0 failures, 0 errors
+
+Total: 4 unit tests passed.
+Command: gradlew.bat :console:test :console:run --args=Kotlin! --console=plain --max-workers=2
+Result: BUILD SUCCESSFUL; console examples executed.
