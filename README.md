@@ -15,7 +15,7 @@ buoi5/     Dự án Android Compose: 5 bài bố cục cơ bản
 buoi6/     Dự án Android Compose: Affirmations và Courses
 ```
 
-Mỗi buổi là một dự án Gradle riêng. Trong Android Studio, chọn **File → Open** rồi mở trực tiếp thư mục **buoi4**, **buoi5** hoặc **buoi6**.
+Mỗi buổi là một dự án Gradle riêng.
 
 - Buổi 4: chọn **Kotlin Console** hoặc **Kotlin Decorations**; không cần máy ảo để chạy bài console.
 - Buổi 5: chọn **birthday**, **article**, **taskmanager**, **quadrant** hoặc **businesscard**, chọn máy ảo/điện thoại rồi nhấn **Run**.
