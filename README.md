@@ -36,5 +36,3 @@ Mỗi buổi là một dự án Gradle riêng.
 - Buổi 8: mở `buoi8`, chọn **dessertclicker**, quan sát Logcat và xoay màn hình.
 - Buổi 9: mở `buoi9`, chọn **unscramble** hoặc **dessertviewmodel**.
 - Buổi 10: mở `buoi10`, chọn **inventory** hoặc **busschedule**; dữ liệu được đọc/lưu bằng Room.
-
-Mỗi thư mục buổi học có README và kết quả kiểm tra riêng; mã nguồn mẫu Google được ghi nguồn và giữ giấy phép.
