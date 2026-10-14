@@ -1,0 +1,30 @@
+Validation date: 2026-10-14 (Asia/Bangkok)
+Environment: Windows, Android Studio JDK 25, Gradle 9.6.0, AGP 9.4.1
+Device: QLCT_API_35, emulator-5554, Android 15 / API 35
+
+Build command:
+gradlew.bat assembleDebug testDebugUnitTest assembleDebugAndroidTest --console=plain --max-workers=2
+Result: BUILD SUCCESSFUL (both app APKs and Android test APKs).
+
+Executed test tasks: testDebugUnitTest and connectedDebugAndroidTest.
+Final Inventory rerun after fixes:
+gradlew.bat :inventory:testDebugUnitTest :inventory:connectedDebugAndroidTest --console=plain --max-workers=2
+Result: BUILD SUCCESSFUL.
+
+Final reports:
+inventory / com.example.inventory.InventoryViewModelTest: 3 tests, 0 failures, 0 errors
+inventory / com.example.inventory.InventoryUiTest: 1 tests, 0 failures, 0 errors
+inventory / com.example.inventory.ItemDaoTest: 8 tests, 0 failures, 0 errors
+busschedule / com.example.busschedule.BusScheduleDaoTest: 1 tests, 0 failures, 0 errors
+busschedule / com.example.busschedule.BusScheduleNavigationTest: 1 tests, 0 failures, 0 errors
+
+Total: 14 tests passed (3 local unit tests + 11 device tests).
+Room DAO tests use in-memory or isolated test databases.
+Persistence test closes and reopens a disk database.
+UI tests cover Inventory add/sell/edit/cancel-delete/confirm-delete and Activity recreation.
+Bus Schedule tests load all 31 asset rows, sort by arrival, filter a stop, test missing stop,
+and verify the selected stop/title survive Activity recreation and Up navigation.
+
+APKs (not committed):
+inventory/build/outputs/apk/debug/inventory-debug.apk
+busschedule/build/outputs/apk/debug/busschedule-debug.apk
