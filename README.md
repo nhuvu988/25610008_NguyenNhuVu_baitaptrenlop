@@ -13,5 +13,6 @@
 | **Buổi 8** | Activity lifecycle, Logcat và rememberSaveable: Dessert Clicker | [buoi8](buoi8/README.md) |
 | **Buổi 9** | ViewModel, StateFlow, Unscramble và Dessert ViewModel | [buoi9](buoi9/README.md) |
 | **Buổi 10** | Room, Flow, Inventory CRUD và Bus Schedule | [buoi10](buoi10/README.md) |
+| **Buổi 11** | Coroutine, Race Tracker, Retrofit, Coil, Mars Photos, Amphibians và Bookshelf | [buoi11](buoi11/README.md) |
 
 Mỗi buổi nằm trong một thư mục riêng. Mở thư mục buổi học bằng Android Studio để xem mã và chạy bài.

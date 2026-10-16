@@ -1,0 +1,29 @@
+Buoi 11 validation - 2026-10-16 (Asia/Bangkok)
+Environment: Windows x64, JDK 25, Gradle 9.6.0, AGP 9.4.1, Android SDK 37.
+
+PASS: coroutines: 4 JVM tests, 0 failures/errors.
+PASS: racetracker: 6 JVM tests, 0 failures/errors.
+PASS: marsphotos: 4 JVM tests, 0 failures/errors.
+PASS: amphibians: 3 JVM tests, 0 failures/errors.
+PASS: bookshelf: 9 JVM tests, 0 failures/errors.
+Total: 26 JVM tests passed.
+PASS: bookshelf: 3 Android Compose UI tests on QLCT_API_35 (Android 15 / API 35).
+PASS: racetracker: 1 Android Compose UI tests on QLCT_API_35 (Android 15 / API 35).
+Total: 4 Android tests passed.
+PASS lintDebug: racetracker: 0 errors, 15 warnings, 1 hint. Warnings mostly concern pinned dependency versions / upstream theme APIs.
+PASS assembleDebug: racetracker; dedicated lesson applicationId verified.
+PASS lintDebug: marsphotos: 0 errors, 17 warnings. Warnings mostly concern pinned dependency versions / upstream theme APIs.
+PASS assembleDebug: marsphotos; dedicated lesson applicationId verified.
+PASS lintDebug: amphibians: 0 errors, 17 warnings. Warnings mostly concern pinned dependency versions / upstream theme APIs.
+PASS assembleDebug: amphibians; dedicated lesson applicationId verified.
+PASS lintDebug: bookshelf: 0 errors, 16 warnings. Warnings mostly concern pinned dependency versions / upstream theme APIs.
+PASS assembleDebug: bookshelf; dedicated lesson applicationId verified.
+
+PASS: coroutine console demo completes; sequential weather ~2 seconds, concurrent weather ~1 second, cancellation/fallback/launch demonstrated.
+PASS live network: Mars /photos returns 838 entries; first NASA JPEG returns HTTP 200; emulator displays photo grid.
+PASS live network: /amphibians returns 6 entries; first PNG returns HTTP 200; emulator displays names/descriptions/photos.
+KNOWN EXTERNAL LIMIT: Google Books anonymous request returns HTTP 429 from development network; emulator shows quota error and Retry. Live Bookshelf success is not claimed.
+PASS offline Bookshelf verification: fake service / MockWebServer cover search + per-ID details, query encoding, ordered bounded concurrency, Gson, nullable fields, HTTPS covers, HTTP 429, cancellation, retry, empty results and UI.
+Optional Google Books API key can be provided via environment or user Gradle property; no key included.
+Screenshots: screenshots/marsphotos.png, amphibians.png, racetracker.png and bookshelf.png (live quota-error screen).
+No changes to earlier lessons or QLCT app source. No API keys, local.properties, generated build output, IDE cache or upstream .git directories included in commit.

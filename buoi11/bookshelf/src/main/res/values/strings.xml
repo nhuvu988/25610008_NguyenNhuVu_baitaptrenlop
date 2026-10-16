@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Buổi 11 · Bookshelf</string>
+    <string name="search_label">Tên sách, tác giả hoặc chủ đề</string>
+    <string name="search">Tìm sách</string>
+    <string name="loading">Đang tìm và tải thông tin sách…</string>
+    <string name="retry">Thử lại</string>
+    <string name="empty">Không tìm thấy sách. Hãy thử từ khóa khác.</string>
+    <string name="cover">Bìa sách %1$s</string>
+    <string name="missing_cover">Chưa có bìa</string>
+    <string name="results">%1$d sách · %2$s</string>
+</resources>
